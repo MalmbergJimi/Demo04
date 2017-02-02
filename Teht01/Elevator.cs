@@ -9,6 +9,7 @@ namespace Teht01
     class Elevator
     {
         private int MaxKerros = 5;
+        private int MinKerros = 1;
         private int floor;
         public int Floor
         {
@@ -18,7 +19,7 @@ namespace Teht01
             }
             set
             {
-                if (value <= MaxKerros && value > 0) floor = value;
+                if (value <= MaxKerros && value >= MinKerros) floor = value;
                 else
                 {
                     Console.WriteLine("Ei mahdollinen kerros! Rakennuksessa on vain viisi kerrosta!");
