@@ -27,6 +27,9 @@ namespace PersonApplication
             oppilas.PhoneNumber = "444-44444444";
             Console.WriteLine(oppilas.ToString());
 
+            ope.TeacherMethod();
+            oppilas.StudentMethod();
+
 
         }
     }
