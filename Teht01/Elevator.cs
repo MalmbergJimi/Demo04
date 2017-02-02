@@ -23,7 +23,7 @@ namespace Teht01
                 else
                 {
                     Console.WriteLine("Ei mahdollinen kerros! Rakennuksessa on vain viisi kerrosta!");
-                    floor = Floor;
+                    
                 }
             }
         }
