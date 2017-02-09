@@ -23,7 +23,14 @@ namespace Teht03
 
         // methods
 
-       
+        public void PrintData()
+        {
+            
+            Console.WriteLine("Employee:");
+            Console.WriteLine("- Names: " + Names + ". Profession: " + Profession + ". Palkka: " + Salary);
+            
+        }
+
         public override string ToString()
         {
             return Names + " " + Profession + " " + Salary;

@@ -15,20 +15,19 @@ namespace Teht03
             arska.Profession = "Tehdastyöläinen";
             arska.Salary = "1800e/kk";
 
-            Console.WriteLine(arska.ToString());
-
-
+            arska.PrintData();
+            
             Boss pomo = new Boss();
             pomo.Names = "Teppo Teuvonen";
             pomo.Profession = "IT-ala";
             pomo.Salary = "5000e/kk";
             pomo.Car = "BMW M8";
             pomo.Bonus = "1000e";
-                        
-            Console.WriteLine(pomo.ToString());
+
+            pomo.PrintDataBoss();            
 
             arska.Salary = "1500e/kk";
-            Console.WriteLine(arska.ToString());
+            arska.PrintData();
         }
     }
 }

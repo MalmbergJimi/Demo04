@@ -15,7 +15,15 @@ namespace Teht03
         {
         }
 
-        
+        public void PrintDataBoss()
+        {
+
+            Console.WriteLine("Employee:");
+            Console.WriteLine("- Names: " + Names + ". Profession: " + Profession + ". Palkka: " + Salary +
+                ". Auto: " + Car + ". Bonus: " + Bonus);
+
+        }
+
         public override string ToString()
         {
             return base.ToString() + " " + Car + " " + Bonus;
